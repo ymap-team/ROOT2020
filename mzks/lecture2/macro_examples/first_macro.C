@@ -1,3 +1,0 @@
-{
-    cout << "Hello, world!" << endl;
-}
