@@ -69,7 +69,7 @@ int root_draw_registered(){ // <-- 関数名はファイル名と一致させる
   
   //-----[ ファイルから読み込む]-----//
   //--- ファイルを開く
-  const string ReadFilename = "./SampleData.txt";
+  const string ReadFilename = "./sample_data/data2.txt";
   ifstream fin(ReadFilename.c_str());
   if(!fin.good()){//--- 開けなかったらエラーを吐いて終了する
     cerr << "# Error: failed to open readfile" << endl;
